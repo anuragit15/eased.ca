@@ -1,0 +1,53 @@
+title: "Eased solutions"
+description: "Eased cloud, devops with scale and more"
+url: "https://eased.ca"  # Replace with your domain
+baseurl: ""  # Leave blank for root
+
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-include-cache
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+
+paginate: 5
+paginate_path: /page:num/
+
+author:
+  name: "Anurag Gandhi"
+  avatar: "/assets/images/avatar.png"
+  bio: "Cloud & DevOps consultant"
+  location: "India"
+
+comments:
+  provider: "giscus"
+  giscus:
+    repo: "anuragit15/eased.ca"
+    repo_id: "R_kgDOPMLERw"
+    category: "General"
+    category_id: "DIC_kwDOPMLER84Ct124"
+    mapping: "pathname"
+    theme: "preferred_color_scheme"
+    reactions_enabled: "1"
+    input_position: "bottom"
+    lang: "en"
+    loading: "lazy"
+
+google_analytics: "G-MJMSRQFDFV" # Your GA tracking ID
