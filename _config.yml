@@ -15,6 +15,7 @@ plugins:
 collections:
   posts:
     output: true
+    future: true
 
 defaults:
   - scope:
