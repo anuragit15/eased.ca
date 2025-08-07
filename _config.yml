@@ -28,6 +28,9 @@ defaults:
       read_time: true
       comments: true
       share: true
+  - scope:
+      path: ""
+    values:
       css: "/assets/css/custom.css"
 
 paginate: 5
