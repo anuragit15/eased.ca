@@ -54,6 +54,9 @@ comments:
     lang: "en"
     loading: "lazy"
 
+header:
+  logo: "/assets/images/logo.png"
+
 footer:
   links: false
   custom: true
