@@ -1,0 +1,27 @@
+<div class="page__footer" style="text-align: center; padding: 1.5em 0;">
+  <div class="page__footer-copyright">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+  </div>
+
+  <div class="page__footer-links" style="margin-top: 0.5em;">
+    <a href="{{ "/feed.xml" | relative_url }}" aria-label="RSS Feed" title="RSS Feed">
+      <i class="fas fa-rss"></i> Feed
+    </a>
+  </div>
+
+  {% if site.author %}
+    <div class="page__footer-social" style="margin-top: 0.5em;">
+      {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      {% endif %}
+      {% if site.author.linkedin %}
+        &nbsp;|&nbsp;
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>
