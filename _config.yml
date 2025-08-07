@@ -72,3 +72,5 @@ sass:
 
 minimal_mistakes_skin: "aqua"
 
+navigation:
+  main: main
