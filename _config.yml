@@ -36,6 +36,8 @@ author:
   avatar: "/assets/images/avatar.png"
   bio: "Cloud & DevOps consultant"
   location: "India"
+  github: anuragit15
+  linkedin: anurag-gandhi
 
 comments:
   provider: "giscus"
