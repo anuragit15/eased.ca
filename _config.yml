@@ -28,10 +28,10 @@ defaults:
       read_time: true
       comments: true
       share: true
-  - scope:
-      path: ""
-    values:
-      css: "/assets/css/custom.css"
+  # - scope:
+  #     path: ""
+  #   values:
+  #     css: "/assets/css/custom.css"
 
 paginate: 5
 paginate_path: /page:num/
@@ -70,5 +70,5 @@ google_analytics: "G-MJMSRQFDFV" # Your GA tracking ID
 sass:
   style: compressed
 
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "aqua"
 
