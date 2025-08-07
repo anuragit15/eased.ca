@@ -2,6 +2,7 @@ title: "Eased solutions"
 description: "Eased cloud, devops with scale and more"
 url: "https://eased.ca"  # Replace with your domain
 baseurl: ""  # Leave blank for root
+logo: "/assets/images/logo.png"
 
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
@@ -57,5 +58,10 @@ footer:
   links: false
   custom: true
 
-
 google_analytics: "G-MJMSRQFDFV" # Your GA tracking ID
+
+sass:
+  style: compressed
+
+minimal_mistakes_skin: "default"
+
