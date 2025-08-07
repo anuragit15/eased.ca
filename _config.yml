@@ -53,7 +53,7 @@ comments:
 
 footer:
   links: false
-  powered_by: false
+  custom: true
 
 
 google_analytics: "G-MJMSRQFDFV" # Your GA tracking ID
